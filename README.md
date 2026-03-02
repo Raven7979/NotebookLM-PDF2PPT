@@ -11,11 +11,13 @@
 ## 下载 DMG （这个下载即可使用，因为API需要费用所以会收取较少的费用）
 
 - Release 页面：`https://github.com/Raven7979/NotebookLM-PDF2PPT/releases`
+- 网站下载：https://ehotapp.xyz
 - 最终版（当前）：[`NotePDF2PPT_v1.1_b0.dmg`](https://github.com/Raven7979/NotebookLM-PDF2PPT/releases/download/v1.1-b0/NotePDF2PPT_v1.1_b0.dmg)
 
 ## 样板案例
 
 下面是 3 组样板（输入 PDF 与输出 PPTX 对照），可直接点击下载查看：
+转出什么样就什么样没有调整过
 
 | 样板 | 输入 PDF | 输出 PPTX |
 | --- | --- | --- |
