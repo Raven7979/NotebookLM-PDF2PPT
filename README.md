@@ -1,34 +1,21 @@
 # NotebookLM PDF2PPT
 
-将 PDF 智能转换为可编辑 PPTX 的一体化方案（macOS 客户端 + 后端服务）。
+将 PDF 智能转换为可编辑 PPTX 的 macOS 客户端工具。
 
 ## 你能得到什么
 
 - 保留原稿视觉风格：尽量还原 PDF 页面布局、字号、颜色与排版。
 - 文本可编辑：输出的是可编辑文本框，不是纯截图拼贴。
 - AI 去字修复：先去掉底图中的原始文字，再回填可编辑文本，减少重影。
-- 云端渲染与计费：后端基于 NanoBanana-pro 渲染能力处理转换任务。
 
-## 仓库结构
+## 下载 DMG
 
-- `1. 前端最终版 v1.0/Mac_App_Project/`：macOS 客户端工程（Swift/Xcode）。
-- `2. 后端最终版 v1.0/API_Backend/`：FastAPI 后端、转换核心与支付/账号能力。
-- `docs/`：推广文案与对外说明材料。
+- Release 页面：`https://github.com/Raven7979/NotePDF2PPT/releases`
+- 最终版（当前）：[`NotePDF2PPT_v1.1_b0.dmg`](https://github.com/Raven7979/NotePDF2PPT/releases/download/v1.1-b0/NotePDF2PPT_v1.1_b0.dmg)
 
-## 快速开始
+## 源码运行（可选）
 
-### 1) 启动后端
-
-```bash
-cd "2. 后端最终版 v1.0/API_Backend"
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-```
-
-### 2) 启动前端（Mac App）
+### 启动前端（Mac App）
 
 1. 使用 Xcode 打开 `1. 前端最终版 v1.0/Mac_App_Project/PDFtoPPTX 1.2.xcodeproj`
 2. 选择 `PDFtoPPTX` Scheme
@@ -44,8 +31,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 ## 安全与配置
 
-- 不要提交真实 `.env` 文件；仅提交 `.env.example`。
-- 生产环境请自行建立密钥轮换与最小权限策略。
+- 本仓库不包含后端及密钥配置文件。
 
 ## 适用场景
 

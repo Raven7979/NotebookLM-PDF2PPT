@@ -54,7 +54,7 @@
 **响应**:
 ```json
 {
-    "phone_number": "13800138000",
+    "phone_number": "PHONE_NUMBER_PLACEHOLDER",
     "credits": 100
 }
 ```
@@ -74,7 +74,7 @@
 ```json
 {
     "valid": true,
-    "phone_number": "13800138000",
+    "phone_number": "PHONE_NUMBER_PLACEHOLDER",
     "credits": 100
 }
 ```
