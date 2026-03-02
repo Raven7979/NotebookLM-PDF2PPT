@@ -1,4 +1,4 @@
-# NotePDF2PPT
+# NotebookLM PDF2PPT
 
 将 PDF 智能转换为可编辑 PPTX 的一体化方案（macOS 客户端 + 后端服务）。
 
@@ -33,6 +33,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 1. 使用 Xcode 打开 `1. 前端最终版 v1.0/Mac_App_Project/PDFtoPPTX 1.2.xcodeproj`
 2. 选择 `PDFtoPPTX` Scheme
 3. Build & Run
+4. 若首次启动被 macOS 拦截，请到“系统设置 -> 隐私与安全性”中点击“仍要打开”或“允许”，再重新启动 App。
 
 ## 使用注意
 
@@ -44,7 +45,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ## 安全与配置
 
 - 不要提交真实 `.env` 文件；仅提交 `.env.example`。
-- 生产密钥治理流程见 `docs/SECRETS_ROTATION_RUNBOOK.md`。
+- 生产环境请自行建立密钥轮换与最小权限策略。
 
 ## 适用场景
 
