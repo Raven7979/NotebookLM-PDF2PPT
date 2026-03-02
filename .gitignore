@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Secrets and local env
+**/.env
+!.env.example
+
+# Python artifacts
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/.pytest_cache/
+**/.mypy_cache/
+venv/
+**/venv/
+
+# Node/web artifacts
+**/node_modules/
+**/dist/
+
+# Build and package outputs
+**/build/
+**/build_output/
+**/*.app
+**/*.dmg
+
+# Runtime data
+**/*.db
+**/uploads/
+**/generated_pptx/
+**/test_output/
+**/test_output.pptx
+
+# Logs
+*.log
+**/*.log
+
+# Local agent metadata
+**/.agent/
+
+# Historical/duplicate archives
+1.0/
+3. 打包输出 v1.0/
+4. 旧版本存档/

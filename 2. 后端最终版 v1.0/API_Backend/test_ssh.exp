@@ -1,0 +1,35 @@
+#!/usr/bin/expect -f
+
+set ip "SSH_IP_PLACEHOLDER"
+set password "SSH_PASSWORD_PLACEHOLDER"
+
+log_user 1
+set timeout 20
+spawn ssh -o StrictHostKeyChecking=no root@$ip
+expect {
+    "password:" {
+        sleep 1
+        send -- "$password\r"
+        exp_continue
+    }
+    "Permission denied" {
+        puts "ERROR: AUTH_FAILED"
+        exit 1
+    }
+    "root@*:# " {
+        send "whoami\r"
+    }
+    "root@*:~# " {
+        send "whoami\r"
+    }
+    "*# " {
+        send "whoami\r"
+    }
+}
+expect {
+    "root" {
+        puts "SUCCESS: LOGGED_IN"
+    }
+}
+send "exit\r"
+expect eof
