@@ -10,8 +10,8 @@
 
 ## 下载 DMG
 
-- Release 页面：`https://github.com/Raven7979/NotePDF2PPT/releases`
-- 最终版（当前）：[`NotePDF2PPT_v1.1_b0.dmg`](https://github.com/Raven7979/NotePDF2PPT/releases/download/v1.1-b0/NotePDF2PPT_v1.1_b0.dmg)
+- Release 页面：`https://github.com/Raven7979/NotebookLM-PDF2PPT/releases`
+- 最终版（当前）：[`NotePDF2PPT_v1.1_b0.dmg`](https://github.com/Raven7979/NotebookLM-PDF2PPT/releases/download/v1.1-b0/NotePDF2PPT_v1.1_b0.dmg)
 
 ## 源码运行（可选）
 
