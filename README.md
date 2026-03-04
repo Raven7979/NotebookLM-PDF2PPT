@@ -33,6 +33,7 @@
 2. 选择 `PDFtoPPTX` Scheme
 3. Build & Run
 4. 若首次启动被 macOS 拦截，请到“系统设置 -> 隐私与安全性”中点击“仍要打开”或“允许”，再重新启动 App。
+![21444a3fee79237d23db979522fc6169](https://github.com/user-attachments/assets/b6f355f9-f3d2-404d-aedc-7d3e1b4622c6)
 
 ## 使用注意
 
