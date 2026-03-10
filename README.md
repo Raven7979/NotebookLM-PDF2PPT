@@ -52,6 +52,7 @@
 2. **费用说明**：转换过程调用 NanoBanana-pro 云端渲染，会产生算力成本，通常以积分或额度方式计费。
 3. **AI 随机性**：AI 渲染存在一定“抽卡”波动，同一文件多次生成可能有细节差异。
 4. **结果微调**：生成的 `.pptx` 在复杂版式场景下，仍可能需要手工微调，如对齐、换行、字号，特殊字体也可能无法准确识别。
+5. **Win 版效果说明**：由于 Win 版 OCR 功能目前不如 Mac 版成熟，最终转换效果可能会略差一些。
 
 **欢迎入群讨论**
 
@@ -127,6 +128,7 @@ I plan to prepare a source package with API key configuration later. For now, th
 2. **Cost**: the conversion pipeline uses NanoBanana-pro cloud rendering, which incurs compute cost and is typically billed through credits or quota.
 3. **AI variability**: AI rendering has some randomness, so repeated runs on the same file may produce small differences.
 4. **Manual adjustments**: for complex layouts, the generated `.pptx` may still need minor manual edits such as alignment, line breaks, font size, or font replacement.
+5. **Windows version note**: the OCR capability on Windows is currently not as strong as on macOS, so the final conversion quality may be slightly worse.
 
 **Join the community**
 
