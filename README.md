@@ -60,9 +60,12 @@
   <img src="小红书群.jpg" alt="小红书群" width="300" />
 </p>
 
-<p align="center">
-  左侧黑白码：微信群 ｜ 右侧红色码：小红书群
-</p>
+<table align="center">
+  <tr>
+    <td align="center">微信群</td>
+    <td align="center">小红书群</td>
+  </tr>
+</table>
 
 ### 安全与配置
 
@@ -129,9 +132,12 @@ I plan to prepare a source package with API key configuration later. For now, th
   <img src="小红书群.jpg" alt="Xiaohongshu Group" width="300" />
 </p>
 
-<p align="center">
-  Left black-and-white code: WeChat Group ｜ Right red code: Xiaohongshu Group
-</p>
+<table align="center">
+  <tr>
+    <td align="center">WeChat Group</td>
+    <td align="center">Xiaohongshu Group</td>
+  </tr>
+</table>
 
 ### Security and Configuration
 
