@@ -1,5 +1,10 @@
 # NotebookLM PDF2PPT
 
+<p align="center">
+  <a href="#中文说明">中文</a> |
+  <a href="#english">English</a>
+</p>
+
 将 PDF 智能转换为可编辑 PPTX 的 macOS 客户端工具。
 
 ---
