@@ -53,9 +53,15 @@
 3. **AI 随机性**：AI 渲染存在一定“抽卡”波动，同一文件多次生成可能有细节差异。
 4. **结果微调**：生成的 `.pptx` 在复杂版式场景下，仍可能需要手工微调，如对齐、换行、字号，特殊字体也可能无法准确识别。
 
+**欢迎入群讨论**
+
 <p align="center">
   <img src="微信群.jpg" alt="微信群" width="360" />
   <img src="小红书群.jpg" alt="小红书群" width="300" />
+</p>
+
+<p align="center">
+  微信群 ｜ 小红书群
 </p>
 
 ### 安全与配置
@@ -116,9 +122,15 @@ I plan to prepare a source package with API key configuration later. For now, th
 3. **AI variability**: AI rendering has some randomness, so repeated runs on the same file may produce small differences.
 4. **Manual adjustments**: for complex layouts, the generated `.pptx` may still need minor manual edits such as alignment, line breaks, font size, or font replacement.
 
+**Join the community**
+
 <p align="center">
   <img src="微信群.jpg" alt="WeChat Group" width="360" />
   <img src="小红书群.jpg" alt="Xiaohongshu Group" width="300" />
+</p>
+
+<p align="center">
+  WeChat Group ｜ Xiaohongshu Group
 </p>
 
 ### Security and Configuration
