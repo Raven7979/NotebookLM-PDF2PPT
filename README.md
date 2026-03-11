@@ -22,7 +22,7 @@
 - Release 页面：`https://github.com/Raven7979/NotebookLM-PDF2PPT/releases`
 - 网站下载：https://ehotapp.xyz
 - 最终版（当前）：MAC 版，文件下载：[NotePDF2PPT_v1.2.2_b122.dmg](https://raw.githubusercontent.com/Raven7979/NotebookLM-PDF2PPT/main/3.%20%E6%89%93%E5%8C%85%E8%BE%93%E5%87%BA%20v1.0/NotePDF2PPT_v1.2.2_b122.dmg)
-- Win 版下载：[NotePDF2PPT_Setup_v1.0.1.exe](publish/NotePDF2PPT_Setup_v1.0.1.exe)
+- Win 版下载：[NotePDF2PPT_Setup_v1.0.3.exe](publish/NotePDF2PPT_Setup_v1.0.3.exe)
 
 ### 样板案例
 
@@ -98,7 +98,7 @@ A macOS client that converts PDFs into editable PPTX files.
 - Releases: [GitHub Releases](https://github.com/Raven7979/NotebookLM-PDF2PPT/releases)
 - Website: [ehotapp.xyz](https://ehotapp.xyz)
 - Current macOS build: [NotePDF2PPT_v1.2.2_b122.dmg](https://raw.githubusercontent.com/Raven7979/NotebookLM-PDF2PPT/main/3.%20%E6%89%93%E5%8C%85%E8%BE%93%E5%87%BA%20v1.0/NotePDF2PPT_v1.2.2_b122.dmg)
-- Windows download: [NotePDF2PPT_Setup_v1.0.1.exe](publish/NotePDF2PPT_Setup_v1.0.1.exe)
+- Windows download: [NotePDF2PPT_Setup_v1.0.3.exe](publish/NotePDF2PPT_Setup_v1.0.3.exe)
 
 ### Sample Cases
 
